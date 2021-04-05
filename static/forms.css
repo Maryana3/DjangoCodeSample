@@ -1,0 +1,9 @@
+
+.aligned label.required:not(.vCheckboxLabel):after {
+    content: '*';
+    font-size: 16px;
+}
+
+.required label, label.required {
+    color: #333;
+}

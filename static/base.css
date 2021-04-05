@@ -1,0 +1,30 @@
+thead th.required {
+    color: #666;
+}
+
+thead th.required:after {
+    content: '*';
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    margin: 0;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+    background: #35a39a;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.inline-group .inline-group h2 {
+    background: #207861;
+    opacity: 0.7;
+}
+
+.inline-group .inline-group .inline-group h2 {
+    background: #358e9c;
+    opacity: 0.7;
+}

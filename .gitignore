@@ -1,0 +1,39 @@
+# IDEs
+.project
+.pydevproject
+.idea/
+.vscode
+.settings
+.DS_Store
+
+# Python & Django compiled byte code
+*.pyc
+
+# SQLite database
+*.sqlite
+
+.cache
+
+# static validation files. Currently no sass-lint is present
+.sass-lint.yml
+
+# emails on dev
+notifications/dev-output/*.log
+
+edutailors/settings/local.py
+
+.gitsecret/keys/random_seed
+
+# env secrets
+.secrets/*.env
+
+# app env
+env
+venv
+.env
+.env.test
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
